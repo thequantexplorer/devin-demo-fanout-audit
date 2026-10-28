@@ -1,0 +1,19 @@
+{
+  "name": "acme-svc-notifications",
+  "version": "1.4.0",
+  "private": true,
+  "description": "Email/SMS fan-out",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "request": "^2.88.2",
+    "express-rate-limit": "^7.4.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}

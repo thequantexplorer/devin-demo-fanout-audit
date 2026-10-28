@@ -1,0 +1,26 @@
+[
+  {
+    "sku": "SKU-0",
+    "name": "Trail Runner"
+  },
+  {
+    "sku": "SKU-1",
+    "name": "Road Runner"
+  },
+  {
+    "sku": "SKU-2",
+    "name": "Rain Shell"
+  },
+  {
+    "sku": "SKU-3",
+    "name": "Wool Socks"
+  },
+  {
+    "sku": "SKU-4",
+    "name": "Trail Socks"
+  },
+  {
+    "sku": "SKU-5",
+    "name": "Camp Mug"
+  }
+]
