@@ -8,16 +8,18 @@ More demos: [devin-advanced-demos](https://github.com/thequantexplorer/devin-adv
 
 ## Set it up
 
-1. Click **Use this template → Create a new repository**, choose your GitHub account or org as the owner, and keep the name `devin-demo-fanout-audit`. The links and prompt below assume that name. Use the template rather than a fork: pull requests on a fork go to the original repo by default.
-2. In Devin, open [**Settings → Connections → GitHub**](https://app.devin.ai/settings/connections/github) and make sure Devin can access the new repository.
-3. This repo holds six small services under `services/`. To get the real multi-repo setup, publish each one as its own repo (needs the [GitHub CLI](https://cli.github.com/), logged in):
+The six services in `services/` are also published as template repos, so you can set this lab up entirely in the browser.
 
-   ```sh
-   scripts/publish-services.sh <you>            # creates <you>/acme-svc-payments, ... as private repos
-   scripts/publish-services.sh <you> --public   # or public
-   ```
+1. Create your own copy of each service. Open each link, choose your GitHub account or org as the owner, keep the name GitHub fills in (`acme-svc-…`), and click **Create repository**:
 
-   Then give Devin access to the six new repos.
+   - [acme-svc-payments](https://github.com/new?template_owner=thequantexplorer&template_name=devin-demo-svc-payments&name=acme-svc-payments)
+   - [acme-svc-orders](https://github.com/new?template_owner=thequantexplorer&template_name=devin-demo-svc-orders&name=acme-svc-orders)
+   - [acme-svc-users](https://github.com/new?template_owner=thequantexplorer&template_name=devin-demo-svc-users&name=acme-svc-users)
+   - [acme-svc-notifications](https://github.com/new?template_owner=thequantexplorer&template_name=devin-demo-svc-notifications&name=acme-svc-notifications)
+   - [acme-svc-search](https://github.com/new?template_owner=thequantexplorer&template_name=devin-demo-svc-search&name=acme-svc-search)
+   - [acme-svc-inventory](https://github.com/new?template_owner=thequantexplorer&template_name=devin-demo-svc-inventory&name=acme-svc-inventory)
+
+2. In Devin, open [**Settings → Connections → GitHub**](https://app.devin.ai/settings/connections/github) and make sure Devin can access the six new repos.
 
 ## Prompt
 
