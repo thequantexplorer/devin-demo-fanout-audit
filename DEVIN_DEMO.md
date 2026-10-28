@@ -9,7 +9,7 @@ More demos: [devin-advanced-demos](https://github.com/thequantexplorer/devin-adv
 ## Set it up
 
 1. Click **Use this template → Create a new repository** (or fork it) into your own GitHub account or org.
-2. In Devin, open **Settings → Integrations → GitHub** and make sure Devin can access the new repository.
+2. In Devin, open [**Settings → Connections → GitHub**](https://app.devin.ai/settings/connections/github) and make sure Devin can access the new repository.
 3. This repo holds six small services under `services/`. To get the real multi-repo setup, publish each one as its own repo (needs the [GitHub CLI](https://cli.github.com/), logged in):
 
    ```sh
